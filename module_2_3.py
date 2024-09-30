@@ -12,9 +12,11 @@ while i < len(my_list) and my_list[i] >= 0:
 i = 0
 while i < len(my_list):
     if my_list[i] == 0:
+        i += 1
         continue
 
     if my_list[i] < 0:
         break
 
     print(my_list[i])
+    i += 1
