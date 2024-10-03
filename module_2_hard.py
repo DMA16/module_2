@@ -52,4 +52,5 @@ def start():
     password = get_password(user_number, multiples)
 
     print("Пароль:", password)
+    
 start()
